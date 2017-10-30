@@ -43,10 +43,3 @@ diverse_results = set(diverse_results)
 for diverse_result in diverse_results:
     print("Result: " + diverse_result + "\n")
     webbrowser.open(diverse_result)
-
-
-
-# Payload
-def queryGoogle(query_string):
-    r = requests.get("Google.com/search?q=" + query_string)
-    return r
